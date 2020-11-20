@@ -8,3 +8,6 @@ Edit at https://www.gitignore.io/?templates=python,vagrant
 
 # Generate a license
 Created at https://choosealicense.com/licenses/mit/
+
+# Allow SSH to work
+$env:VAGRANT_PREFER_SYSTEM_BIN="0"
